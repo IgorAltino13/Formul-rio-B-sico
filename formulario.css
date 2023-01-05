@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 36, 36);
+   
+}
+h1,span,label{
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+input,select,button{
+    margin-bottom: 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    outline: none;
+}
+
+select{
+    margin-right: 15px;
+}
+
+.show2{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+
+.show2:hover{
+    width: 120px;
+    padding: 10px;
+    background-color: turquoise;
+    height: 50px;
+    transition: 0.5s;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.birthday,.gender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gender input{
+    margin-right: 30px;
+}
+
+
+.first{
+    margin-top: 15px;
+}
